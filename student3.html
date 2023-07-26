@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            background-color: rgb(190, 24, 24);
+            margin: 300px;
+            border-style: dotted;
+        }
+        table{
+            border: 1px;
+        }
+    </style>
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    
+    <form action="">
+        <h1 align="center">REGISTER FORM</h1>
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="fname">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="first name" size="30">(max 50 Characters Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="last name" size="30">(max 50 Characters Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email ID</label>
+                </td>
+                <td>
+                    <input type="email" id="email" size="30" placeholder="yahoo@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <select id="dob">
+                        <option value="day">Day</option>
+                        <option value="day1">1</option>
+                        <option value="day2">2</option>
+                        <option value="day3">3</option>
+                        <option value="day4">4</option>
+                        <option value="day5">5</option>
+                        <option value="day6">6</option>
+                        <option value="day7">7</option>
+                        <option value="day8">8</option>
+                        <option value="day9">9</option>
+                        <option value="day10">10</option>
+                        <option value="day11">11</option>
+                        <option value="day12">12</option>
+                        <option value="day13">13</option>
+                        <option value="day14">14</option>
+                        <option value="day15">15</option>
+                    </select>
+                    <select id="dob">
+                        <option value="">Month</option>
+                        <option value="day1">January</option>
+                        <option value="day2">February</option>
+                        <option value="day3">March</option>
+                        <option value="day4">April</option>
+                        <option value="day5">May</option>
+                        <option value="day6">June</option>
+                        <option value="day7">July</option>
+                    </select>
+                    <select id="dob">
+                        <option value="day">Year</option>
+                        <option value="day1">2015</option>
+                        <option value="day2">2016</option>
+                        <option value="day3">2017</option>
+                        <option value="day4">2018</option>
+                        <option value="day5">2019</option>
+                        <option value="day6">2020</option>
+                        <option value="day7">2021</option>
+                        <option value="day8">2022</option>
+                        <option value="day7">2023</option>
+                        <option value="day8">2024</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Address</label>
+                </td>
+                <td>
+                    <textarea name="address" id="add" cols="30" rows="4"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <input type="text" id="city" size="30">(max 50 Characters Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pin">Pin Code</label>
+                </td>
+                <td>
+                    <input type="number" id="pin" size="30">(max 50 Characters Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                    <input type="text" id="state" size="30">(max 50 Characters Allowed)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <input type="text" id="country" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hob">Hobbies</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="hob">
+                    <label for="hob">Drawing</label>
+                    <input type="checkbox" id="hob">
+                    <label for="hob">Singing</label>
+                    <input type="checkbox" id="hob">
+                    <label for="hob">Dancing</label>
+                    <input type="checkbox" id="hob">
+                    <label for="hob">Sketching</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="hob">
+                    <label for="hob">Others</label>
+                    <input type="text" id="hob" placeholder="Ex-Teaching">(Max 50 Characters)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qua">Qualification</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="qua">
+                    <label for="qua">High School(10th)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    
+                    <input type="checkbox" id="qua">
+                    <label for="qua">Higher School(12th)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="qua">
+                    <label for="qua">Graduation(Bachelors)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" id="qua">
+                    <label for="qua">Post Graduation(Masters)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="qua">
+                    <label for="qua">Phd</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">BCA(Bachelor of Computer Applications)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">B.Com(Bachelor of Commerece)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">B.Sc(Bachelor of Science)</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="qua">Coourses Applied For</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="course">
+                    <label for="course">BA(Bachelor of Arts)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">MCA(Master of Computer Applications)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">M.Com(Master of Commerece)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">M.sc(Master of Science)</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>     
+                    <input type="checkbox" id="course">
+                    <label for="course">MA(Master of Arts)</label>
+                </td>
+            </tr>
+        </table>
+        <center class="btn">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </center>
+    </form>
+</body>
+</html>

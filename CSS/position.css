@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right bottom,yellow,orangered,red);
+    height: 100vh;
+}
+.one{
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 200px;
+    width: 800px;
+    border-radius: 15px;
+}
+h2{
+    margin-left: 300px;
+    padding-top: 70px;
+}
+h1{
+    margin-left: 300px;
+    font-size: 1.7em;
+}
+p{
+    margin-left: 300px;
+    width: 450px;
+    line-height: 25px;
+    overflow-y: scroll;
+    height: 50px;
+}
+button{
+    margin-left: 300px;
+    background-image: linear-gradient(to right bottom,yellow,orangered,red);
+    border: 1px solid orangered;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    color: white;
+}
+.two{
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    background-image: linear-gradient(to right bottom,yellow,orangered,red);
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 230px;
+}

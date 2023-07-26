@@ -1,0 +1,24 @@
+.one{
+    border: 2px dashed green;
+    padding: 20px 20px;
+}
+.two{
+    border: 2px dotted yellow;
+    padding: 20px 20px;
+}
+.three{
+    border:2px double violet;
+    padding: 20px 20px;
+}
+.four{
+    border: 3px inset red;
+    padding: 20px 20px;
+}
+.five{
+    border: 3px ridge rgb(255, 0, 170);
+    padding: 20px 20px;
+}
+.six{
+    border: 3px outset rgb(45, 5, 156);
+    padding: 20px 20px;
+}

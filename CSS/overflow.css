@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    position: absolute;
+    gap: 20px;
+}
+.overFlow_Visible{
+    overflow: visible;
+    background-color: rgb(255, 0, 140);
+    width: 200px;
+    height: 75px;
+    border: 2px solid;   
+}
+.overFlow_Hidden{
+    overflow: hidden;
+    background-color: rgb(255, 0, 149);
+    width: 200px;
+    height: 90px;
+    border: 2px solid; 
+}
+.overFlow_Srcoll{
+    overflow: scroll;
+    background-color: rgb(255, 0, 170);
+    width: 200px;
+    height: 200px;
+    border: 2px solid; 
+}
+.overFlow_Auto{
+    overflow: auto;
+    background-color: rgb(255, 0, 212);
+    width: 200px;
+    height: 200px;
+    border: 2px solid; 
+}

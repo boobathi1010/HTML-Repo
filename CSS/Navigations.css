@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.link2{
+    display: none;
+}
+.links li:nth-child(2):hover .link2{
+    display: block;
+}
+.link3{
+    display: none;
+}
+.links li:nth-child(4):hover .link3{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+}
+a:hover{
+    background-color: rgb(41, 41, 139);
+}
+.link2{
+    position:absolute;
+    display: none;
+}
+.scl{
+    transform: translateX(225px)translate(-55px);
+    position: absolute;
+    display: none;
+    bottom: 1px;
+}
+.link2 li:nth-child(1):hover .scl{
+    display: block;
+}
+

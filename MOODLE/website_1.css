@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(to left bottom,rgb(255, 0, 0),rgb(235, 212, 8));
+    height: 100vh; 
+}
+.website_List h1{
+    color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    position: absolute;
+}
+.list_Tag{
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    justify-content: end;
+}
+.list_Tag a{
+    text-decoration: none;
+    color: white;
+}
+li a{
+    padding-right: 30px;
+}
+.website_Content{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.website_Content h1{
+    width: 500px;
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.website_Content p{
+    width: 300px;
+    color: white;
+    line-height: 20px;
+}
+.website_Content button{
+    padding: 10px 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}

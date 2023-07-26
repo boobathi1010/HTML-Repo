@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRAION FORM</title>
+    <style>
+        body{
+            background-color: rgb(113, 159, 177);
+        }
+        .Reg_One{
+            height:30px;
+            width:740px;
+            background-color: green;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1 align="center">
+            Student Registration Form
+        </h1>
+        <hr>
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="name">First Name</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                 <input type="text" name="fname" id="name" placeholder="Enter First Name" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mname">Middle Name</label>
+            </tr>
+            <tr>
+                <td>
+                <input type="text" name="mname" id="mname" placeholder="Enter Middle Name" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname">Last Name</label>
+                <td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Last Name" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Course</label>
+                <select>
+                <option value="none">None</option>
+                <option value="Fullstack">Fullstack</option>
+                <option value="Webdevelopment">Webdevelopment</option>
+                <option value="IMS">IMS</option>
+                <option value="AWS">AWS</option>
+                <option value="Business">Business</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">Phone</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" value="+91" name="pho" id="phone" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="tel" name="phos" id="phone" placeholder="phone no." size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Current Address</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="adds" id="add" cols="97" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="email" placeholder="Enter Email" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" id="pwd" placeholder="Enter Password" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwds">Retype Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="password" id="pwds" placeholder="Re-type Password" size="100">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="Reg_One" type="submit">Register</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>

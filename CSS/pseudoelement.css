@@ -1,0 +1,22 @@
+div p::first-letter{
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+}
+.first-line::first-line{
+    color: aqua;
+    font-size: 1.2em;
+}
+h1::before{
+    content: "HI";
+}
+h1::after{
+    color: aquamarine;
+}
+li::marker{
+    color:orangered;
+}
+::selection{
+    color: rgb(160, 9, 17);
+    background-color: brown;
+}

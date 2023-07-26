@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body{
+            background-color: rgba(7, 250, 250, 0.979);
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Registration Page</h1>
+    <table align="center">
+        <tr>
+            <td><label for="name">First Name</label></td>
+            <td><input type="text" name="fname" id="name" placeholder="Enter First Name"></td>
+        </tr>
+        <tr>
+            <td><label for="mname">Middle Name</label></td>
+            <td><input type="text" name="mname" id="mname" placeholder="Enter Middle Name"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name</label></td>
+            <td><input type="text" name="lname" id="lname" placeholder="Enter Last Name"></td>
+        </tr>
+        <tr>
+            <td><label>Course</label></td>
+            <td>
+            <select>
+            <option value="none">None</option>
+            <option value="India">Fullstack</option>
+            <option value="England">Webdevelopment</option>
+            <option value="Australia">IMS</option>
+            <option value="Pakistan">AWS</option>
+            <option value="Newzeland">Business</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label></td>
+        </tr>
+        <tr>
+            <td><input type="radio" name="gender" id="Other" value="Other">
+            <label for="Other">Other</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Phone</label>
+            </td>
+            <td>
+                <select>
+                    <option value="+90">+90</option>
+                    <option value="+91">+91</option>
+                </select>
+                <input type="number">  
+            </td>
+        </tr>
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td>
+            <textarea name="add" id="address" cols="80" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="number">Phone</label></td>
+            <td><input type="number" name="num" id="number" placeholder="Enter Phone"></td>
+        </tr>
+        <tr>
+            <td><label for="pwd">Password</label></td>
+            <td><input type="password" name="password" id="pwd"></td>
+        </tr>
+        <tr>
+            <td><label for="pwds">Re-type Password</label></td>
+            <td><input type="password" name="password" id="pwds"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

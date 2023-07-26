@@ -1,0 +1,8 @@
+.conic_Gradient{
+    background-image: conic-gradient(red, yellow, green);
+    height: 300px;
+    width: 400px;
+}
+h1{
+    font-size: 3em;
+}

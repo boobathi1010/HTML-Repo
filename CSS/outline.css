@@ -1,0 +1,74 @@
+.box1{
+    display: flex;
+    gap: 10px;
+}
+.box2{
+    display: flex;
+    gap: 10px;
+}
+.box3{
+    display: flex;
+    gap: 10px;
+}
+.One{
+    border: 7px solid  green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Two{
+    border: 7px dashed green ;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Three{
+    border: 7px dotted green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Four{
+    border: 7px double green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Five{
+    border: 7px groove green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Six{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Seven{
+    border: 7px ridge green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Eight{
+    border: 7px inset green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;
+}
+.Nine{
+    border: 7px outset green;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-size: 40px;   
+}

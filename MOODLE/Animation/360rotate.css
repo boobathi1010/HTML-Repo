@@ -1,0 +1,55 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1360845064/vector/vector-illustration-minimalist-polygonal-design-nature-landscape-background-panoramic-view.jpg?s=1024x1024&w=is&k=20&c=LQ65Je2B-8GLuMnKti7Zb4En-qI9vxFvqRINaku-pOc=');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img{
+    position: absolute;
+}
+.container{
+    width: 350px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 35%;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+}
+.images{
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    from{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:hover{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+img:nth-child(1){
+    transform: rotateY(60deg) translateZ(300px);
+}
+img:nth-child(2){
+    transform: rotateY(1200deg) translateZ(300px);
+}
+img:nth-child(3){
+    transform: rotateY(180deg) translateZ(300px);
+}
+img:nth-child(4){
+    transform: rotateY(240deg) translateZ(300px);
+}
+img:nth-child(5){
+    transform: rotateY(3000deg) translateZ(300px);
+}
+img:nth-child(6){
+    transform: rotateY(360deg) translateZ(300px);
+}
+

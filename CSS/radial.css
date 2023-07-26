@@ -1,0 +1,8 @@
+.radial_Gradient{
+    background-image: radial-gradient(red,green,blue);
+    height: 400px;
+    width: 400px;
+}
+h1{
+    font-size: 3em;
+}

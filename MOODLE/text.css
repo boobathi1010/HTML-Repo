@@ -1,0 +1,15 @@
+.outer{
+    background-color: rgb(192, 192, 65);
+    display: flex;
+    justify-content: space-around;
+    min-height: 400px;
+}
+.box{
+    width: 150px;
+    height: 250px;
+    background-color: blue;
+    border: 2px solid white ;
+}
+body{
+    margin: 0px;
+}

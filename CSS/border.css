@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+.para{
+    display: flex;
+}
+.a{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+
+}
+.b{
+    background-color: aqua;
+    height: 240px;
+    width: 240px;
+    border: 20px solid blue;
+    margin-left: 20px;
+}
+.c{
+    background-color: aqua;
+    height: 280px;
+    width: 280px;
+    border: 20px solid blue;
+    margin-left: 20px;
+    padding: 20px;
+}
+.d{
+    background-color: aqua;
+    height: 320px;
+    width: 320px;
+    border: 20px solid blue;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}

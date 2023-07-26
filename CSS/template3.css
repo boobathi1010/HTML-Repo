@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/1407090464/photo/cute-little-boy-at-the-barber-shop-getting-his-hairut.jpg?s=1024x1024&w=is&k=20&c=fBD6MQDLhIPnFCOoumO0ioLUOCk6LySz7NaukTCwYFY=');
+}
+.web_Barber{
+    font-family: 'caprasimo', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}

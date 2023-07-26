@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: brown;
+        }
+        .b_tn{
+            height: 20px;
+            width: 350px;
+            background-color: white;
+            color: black;
+            
+        }
+    </style>
+    <title>Student Register</title>
+</head>
+<body>
+    <h1 align="center">STUDENT REGISTER</h1>
+    <form action="">
+        <table align="center">
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" placeholder="Your name" size="30"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" placeholder="Your email" size="30"></td>
+            </tr>
+            <tr>
+                <td><label for="pwd">Password</label></td>
+                <td><input type="password" name="password" id="pwd" size="30"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number</label></td>
+                <td><input type="tel" name="phones" id="phone" size="30"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="language">Language</label>
+                </td>
+                <td>
+                    <select name="lang" id="language">
+                        <option value="lang">Select Language</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="eng">English</option>
+                        <option value="maths">Maths</option>
+                        <option value="science">Science</option>
+                        <option value="social">Social Science</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zip">Zip Code</label>
+                </td>
+                <td>
+                    <input type="number" id="zip" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="abt">About</label>
+                </td>
+                <td>
+                    <textarea name="about" id="abt" cols="30" rows="1"></textarea>
+                </td>
+            </tr>
+            </table>
+                   <center><button type="submit" class="b_tn">Register</button></center>
+    </form>
+</body>
+</html>

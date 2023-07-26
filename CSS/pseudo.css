@@ -1,0 +1,18 @@
+a:hover{
+    color: red;
+}
+a:link{
+    color: green;
+}
+a:active{
+    color: aqua;
+}
+a:visited::after{
+    color: black;
+}
+h3 a{
+    text-decoration: none;
+}
+h3:hover{
+    background-color: blueviolet;
+}

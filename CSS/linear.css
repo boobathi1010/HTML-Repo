@@ -1,0 +1,8 @@
+body{
+    background-image: linear-gradient(to left bottom,rgb(194, 12, 12),rgb(201, 197, 2),rgb(35, 35, 202));
+    height: 100vh;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    min-height: 500px;
+    min-width: 500px;
+}
+.img{
+    background-image: url(abd.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    flex: 1;
+    animation-name: kohli;
+    animation-duration: 2s;
+}
+@keyframes kohli{
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(100px);
+    }
+}
+.main{
+    background-color: brown;
+    flex: 1;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    animation-name: para;
+    animation-duration: 2s;
+}
+@keyframes para{
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(-10);
+    }
+}

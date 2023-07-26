@@ -1,0 +1,28 @@
+body{
+    text-align: justify;
+    width: 500px;
+    display: block;
+}
+.para1{
+    background-color: rgb(206, 206, 7);
+     margin-top: 10px;
+}
+.para2{
+    background-color: aqua;
+    padding: 25px;
+    margin-top: 10px;
+}
+.para3{
+    background-color: blueviolet;
+    padding-top: 50px;
+}
+.para4{
+    background-color: rgb(37, 247, 37);
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.para5{
+    background-color: rgb(18, 248, 18);
+    margin-top: 10px;
+    padding-right: 40px;
+}

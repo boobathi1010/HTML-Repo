@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+h1{
+    font-family: 'Caprasimo', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+span{
+    color: red;
+}
+.para_One{
+    column-count: 3;
+    text-align: justify;
+    overflow: hidden;
+    padding: 20px;
+}
+.para_Two{
+    column-count: 3;
+    text-align: justify;
+    overflow: hidden;
+    padding: 20px;
+}
+.content_News{
+    display: flex;
+    gap:30px;
+    padding: 20px;
+}
+.content_One{
+    flex: 1;
+    border: 1px solid black;
+    min-height: 520px;
+    max-height: 500px;
+    background-color: white;
+}
+.content_Two{
+    flex: 1;
+    border: 1px solid black;
+    min-height: 520px;
+    max-height: 500px;
+    background-color: white;
+}
